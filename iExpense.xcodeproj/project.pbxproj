@@ -14,15 +14,13 @@
 		F032085A2B4426E100995895 /* iExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208592B4426E100995895 /* iExpenseTests.swift */; };
 		F03208642B4426E100995895 /* iExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208632B4426E100995895 /* iExpenseUITests.swift */; };
 		F03208662B4426E100995895 /* iExpenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208652B4426E100995895 /* iExpenseUITestsLaunchTests.swift */; };
-		F03208732B442AC200995895 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208722B442AC200995895 /* ExpenseItem.swift */; };
-		F03208742B442AC200995895 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208722B442AC200995895 /* ExpenseItem.swift */; };
-		F03208752B442AC200995895 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208722B442AC200995895 /* ExpenseItem.swift */; };
 		F03208772B442B3B00995895 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208762B442B3B00995895 /* Expenses.swift */; };
 		F03208782B442B3B00995895 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208762B442B3B00995895 /* Expenses.swift */; };
 		F03208792B442B3B00995895 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208762B442B3B00995895 /* Expenses.swift */; };
 		F032087B2B45462900995895 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032087A2B45462900995895 /* AddView.swift */; };
 		F032087C2B45462900995895 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032087A2B45462900995895 /* AddView.swift */; };
 		F032087D2B45462900995895 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032087A2B45462900995895 /* AddView.swift */; };
+		F03208832B4C397A00995895 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03208822B4C397A00995895 /* ExpenseItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +51,9 @@
 		F032085F2B4426E100995895 /* iExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03208632B4426E100995895 /* iExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITests.swift; sourceTree = "<group>"; };
 		F03208652B4426E100995895 /* iExpenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F03208722B442AC200995895 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		F03208762B442B3B00995895 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		F032087A2B45462900995895 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		F03208822B4C397A00995895 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +108,9 @@
 				F032084A2B4426E000995895 /* ContentView.swift */,
 				F032087A2B45462900995895 /* AddView.swift */,
 				F03208762B442B3B00995895 /* Expenses.swift */,
-				F03208722B442AC200995895 /* ExpenseItem.swift */,
 				F032084C2B4426E100995895 /* Assets.xcassets */,
 				F032084E2B4426E100995895 /* Preview Content */,
+				F03208822B4C397A00995895 /* ExpenseItem.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -274,8 +272,8 @@
 			files = (
 				F03208772B442B3B00995895 /* Expenses.swift in Sources */,
 				F032084B2B4426E000995895 /* ContentView.swift in Sources */,
+				F03208832B4C397A00995895 /* ExpenseItem.swift in Sources */,
 				F032087B2B45462900995895 /* AddView.swift in Sources */,
-				F03208732B442AC200995895 /* ExpenseItem.swift in Sources */,
 				F03208492B4426E000995895 /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +285,6 @@
 				F032087C2B45462900995895 /* AddView.swift in Sources */,
 				F03208782B442B3B00995895 /* Expenses.swift in Sources */,
 				F032085A2B4426E100995895 /* iExpenseTests.swift in Sources */,
-				F03208742B442AC200995895 /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +295,6 @@
 				F03208792B442B3B00995895 /* Expenses.swift in Sources */,
 				F03208662B4426E100995895 /* iExpenseUITestsLaunchTests.swift in Sources */,
 				F032087D2B45462900995895 /* AddView.swift in Sources */,
-				F03208752B442AC200995895 /* ExpenseItem.swift in Sources */,
 				F03208642B4426E100995895 /* iExpenseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
