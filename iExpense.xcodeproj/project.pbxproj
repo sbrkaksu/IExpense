@@ -85,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				F03208472B4426E000995895 /* iExpense */,
-				F03208582B4426E100995895 /* iExpenseTests */,
 				F03208622B4426E100995895 /* iExpenseUITests */,
 				F03208462B4426E000995895 /* Products */,
 			);
@@ -108,9 +107,10 @@
 				F032084A2B4426E000995895 /* ContentView.swift */,
 				F032087A2B45462900995895 /* AddView.swift */,
 				F03208762B442B3B00995895 /* Expenses.swift */,
+				F03208822B4C397A00995895 /* ExpenseItem.swift */,
+				F03208582B4426E100995895 /* iExpenseTests */,
 				F032084C2B4426E100995895 /* Assets.xcassets */,
 				F032084E2B4426E100995895 /* Preview Content */,
-				F03208822B4C397A00995895 /* ExpenseItem.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
